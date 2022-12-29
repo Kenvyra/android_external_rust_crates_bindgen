@@ -1,0 +1,5 @@
+{
+    "name": "rust",
+    "fetch": "https://github.com/rust-lang/rust-bindgen",
+    "revision": "refs/heads/main"
+}
