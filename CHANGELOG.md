@@ -281,7 +281,6 @@ This version was skipped due to some problems on the release workflow.
 * Depfiles generated with `--depfile` or `Builder::depfile` will now properly
   generate module names and paths that include spaces by escaping them. To make
   the escaping clear and consistent, backslashes are also escaped.
-* Updated `bitflags` dependency to 2.2.1. This changes the API of `CodegenConfig`.
 * Prettyplease formatting is gated by an optional, enabled by default Cargo
   feature when depending on `bindgen` as a library.
 * Items are now parsed in the order they appear in source files. This may result in

@@ -26,7 +26,7 @@ path = "lib.rs"
 
 [dependencies]
 annotate-snippets = { version = "0.9.1", features = ["color"], optional = true }
-bitflags = "2.2.1"
+bitflags = "1.0.3"
 cexpr = "0.6"
 clang-sys = { version = "1", features = ["clang_6_0"] }
 lazy_static = "1"
